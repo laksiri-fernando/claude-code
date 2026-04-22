@@ -23,3 +23,6 @@ claude # follow instructions
 
 ## Reference
 1. [Install/setup claude code](https://docs.anthropic.com/en/docs/claude-code/setup)
+2. [Claude code - youtube tutorial](https://www.youtube.com/watch?v=SUysp3sJHbA&list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY)
+3. [Mosh - Claude Code Tutorial](https://www.youtube.com/watch?v=IuyVVtr1uhY)
+4. [Tech with Tim - Claude Code Tutorial](https://www.youtube.com/watch?v=qYqIhX9hTQk)
