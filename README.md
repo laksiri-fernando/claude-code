@@ -9,16 +9,29 @@ npm install -g @anthropic-ai/claude-code
 
 2. Add claude code to VSCode
 - Launch code
-- Open terminal in code (bash)
-```bash
-claude # follow instructions
-```
+- Go to extensions and install the extension "Claude Code to VS Code"
+
 
 3. Launch claude code
 - Launch code
 - Open terminal in code (bash)
 ```bash
 claude # follow instructions
+```
+- Alternatively, click "Claude Code" extension icon
+
+4. Login
+- In claude cli
+```bash
+/login
+# If you have a subscription, select Option 1: Claude account with subscription · Pro, Max, Team, or Enterprise
+# If you use the free account with KPI key, use Option 2: Anthropic Console account · API usage billing
+```
+
+5. Terminal Setup
+```bash
+/terminal-setup
+# enable shift + enter for new line in claude cli sessions
 ```
 
 ## Reference
