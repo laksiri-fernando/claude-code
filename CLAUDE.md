@@ -4,17 +4,35 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a minimal Python repository with only basic setup files. The repository appears to be prepared for Python development based on the comprehensive .gitignore file.
+This is a reference/learning repository documenting Claude Code setup, usage, and conventions. It contains no application source code — the content is documentation and notes about working with Claude Code.
 
-## Repository Structure
+## Claude Code Setup (from README)
 
-- Only contains README.md and .gitignore
-- .gitignore is configured for Python development with support for various package managers (pip, poetry, pdm, uv)
-- No source code or configuration files present yet
+Install Claude Code (requires WSL on Windows, not native Windows):
+```bash
+npm install -g @anthropic-ai/claude-code
+```
 
-## Development Setup
+Launch from terminal:
+```bash
+claude
+```
 
-Since no package manager configuration files exist yet, the specific development setup will depend on what gets added to the repository. The .gitignore supports:
-- Standard Python package managers (pip, poetry, pdm, uv)
-- Testing frameworks (pytest, coverage)
-- Development tools (mypy, ruff)
+Login options:
+- `/login` → Option 1 for Claude Pro/Max/Team/Enterprise subscription
+- `/login` → Option 2 for Anthropic Console API key billing
+
+Enable shift+enter for newlines in the CLI:
+```bash
+/terminal-setup
+```
+
+## Key Claude Code Commands
+
+- `/init` — generate or update CLAUDE.md with codebase documentation
+- `/login` — authenticate with Claude
+- `/terminal-setup` — configure terminal keybindings
+
+## CLAUDE.md Purpose
+
+CLAUDE.md acts as a shared AI context contract — documentation, conventions, and behavioral rules that guide Claude Code toward consistent outputs. Treat it as living documentation and keep it updated.

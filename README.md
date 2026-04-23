@@ -38,7 +38,13 @@ claude # follow instructions
 
 The CLAUDE.md file is essentially a shared “AI context contract” for your project—combining documentation, conventions, and behavioral rules to guide Claude Code toward consistent, high-quality outputs.
 
-- Always run `/init`
+```bash
+# claude cli
+
+/init
+```
+
+- Initialize a new CLAUDE.md with codebase documentation
 - Treat CLAUDE.md as living documentation
 - Keep it updated to ensure better, more aligned code generation
 
