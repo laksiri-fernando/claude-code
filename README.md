@@ -34,6 +34,14 @@ claude # follow instructions
 # enable shift + enter for new line in claude cli sessions
 ```
 
+## Memory (CLAUDE.md)
+
+The CLAUDE.md file is essentially a shared “AI context contract” for your project—combining documentation, conventions, and behavioral rules to guide Claude Code toward consistent, high-quality outputs.
+
+- Always run `/init`
+- Treat CLAUDE.md as living documentation
+- Keep it updated to ensure better, more aligned code generation
+
 ## Reference
 1. [Install/setup claude code](https://docs.anthropic.com/en/docs/claude-code/setup)
 2. [Claude code - youtube tutorial](https://www.youtube.com/watch?v=SUysp3sJHbA&list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY)
