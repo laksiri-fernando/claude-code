@@ -208,6 +208,14 @@ Messages:            8 tokens  (0.0%)
 Total:          18.8k / 200k  (9%)
 ```
 
+### Exit and re-run claude
+
+```bash
+/exit
+```
+
+The context will be cleared with `/exit` command
+
 ### Clear context
 
 ```bash
@@ -230,7 +238,16 @@ Summarizes and compresses prior conversation turns without fully clearing them. 
 
 When the context approaches its limit, Claude Code automatically compresses older messages. This is seamless — the session continues — but running `/clear` at natural task boundaries keeps things faster and more focused.
 
+### Press Esc twice
+
+Rewind to a previous point in the session
 ---
+
+### Resume conversation
+
+```bash
+/resume conversation
+```
 
 ## Permissions
 
@@ -270,7 +287,7 @@ Permissions live in `.claude/settings.json` (project-level) or `~/.claude/settin
 
 Run the `/fewer-permission-prompts` skill to scan recent transcripts and automatically add common safe commands to your allowlist:
 
-```
+```bash
 /fewer-permission-prompts
 ```
 
